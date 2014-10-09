@@ -26,6 +26,7 @@
 <h2>Khan Academy</h2>
 <?php hard_link("/iiab/video/khan/3", "Math Khan Academy", "Math Vidéos de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/3"); ?>
 <?php hard_link("/iiab/video/khan/4", "Science Khan Academy", "Sciences Vidéos de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/4"); ?>
+<?php hard_link("/iiab/video/khan/5", "Préparation aux examens", "Vidéos Préparation aux examens de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/5"); ?>
 <h2>cartes</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 <h2>autre contenu</h2>
