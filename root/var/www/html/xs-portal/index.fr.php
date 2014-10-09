@@ -28,7 +28,7 @@
 <?php hard_link("/iiab/video/khan/4", "Science Khan Academy", "Sciences Vidéos de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/4"); ?>
 <h2>cartes</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
-<h2>Other Content</h2>
+<h2>autre contenu</h2>
 
 <?php service_link("pathagar", "Lire des livres sur Pathagar", "Pathagar est un serveur qui contient une collection de livres que tu peux lire sans avoir à les télécharger depuis Internet."); ?>
 <?php hard_link("/content/livkreyol", "Lire des livres en creole haitien", "Ici sont des livres et audio en creole haitien."); ?>
