@@ -16,6 +16,20 @@
 <div id="main"> 
 <br><h2>Des documents intéressants que tu peux découvrir ici:</h2>
 
+<h2>Wikipedia</h2>
+<?php hard_link("/iiab/zim/iframe/schools-wikipedia-full-20081023-rc5", "Wikipedia for Schools", "Selection of 6.000 Wikipedia articles for school children","/library/knowledge/modules/wikipedia-zim/schools-wikipedia-full-20081023-rc5.zim"); ?>
+<?php hard_link("/iiab/zim/iframe/wikipedia_en_all_nopic_01_2012", "Wikipedia in English", "The full English Wikipedia","/library/knowledge/modules/wikipedia-zim/wikipedia_en_all_nopic_01_2012.zim"); ?>
+<?php hard_link("/iiab/zim/iframe/wikipedia_en_simple_all_08_2011", "Wikipedia in Simplified English", "For non-native speakers of English","/library/knowledge/modules/wikipedia-zim/wikipedia_en_simple_all_08_2011.zim"); ?>
+<?php hard_link("/iiab/zim/iframe/wikipedia_fr_all_09_2012", "Wikipédia en français", "Wikipédia est une encyclopédie multilingue, universelle et librement diffusable.","/library/knowledge/modules/wikipedia-zim/wikipedia_fr_all_09_2012.zim"); ?>
+<?php hard_link("/iiab/zim/iframe/wikipedia_ar_all_02_2013", "ويكيبيديا", "ويكيبيديا كاملة باللغة العربية","/library/knowledge/modules/wikipedia-zim/wikipedia_ar_all_02_2013.zim"); ?>
+<?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
+<h2>Khan Academy</h2>
+<?php hard_link("/iiab/video/khan/3", "Math Khan Academy", "Math Vidéos de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/3"); ?>
+<?php hard_link("/iiab/video/khan/4", "Science Khan Academy", "Sciences Vidéos de la Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/4"); ?>
+<h2>cartes</h2>
+<?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
+<h2>Other Content</h2>
+
 <?php service_link("pathagar", "Lire des livres sur Pathagar", "Pathagar est un serveur qui contient une collection de livres que tu peux lire sans avoir à les télécharger depuis Internet."); ?>
 <?php hard_link("/content/livkreyol", "Lire des livres en creole haitien", "Ici sont des livres et audio en creole haitien."); ?>
 <?php hard_link("/content/syans", "Lire des livres de sciences", "Ici sont des livres educatifs sur sciences en creole haitien pour enfants de 7 - 9 ans."); ?>
