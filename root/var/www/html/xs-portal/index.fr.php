@@ -30,7 +30,7 @@
 <h2>cartes</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 <h2>autre contenu</h2>
-
+<?php hard_link("/rachel", "RACHEL", "contient une partie des plus importantes information disponibles sur Internet en anglais, comme Wikipedia.  Ces informations sont stockées localement pour que tu puisses les lire facilement."); ?>
 <?php service_link("pathagar", "Lire des livres sur Pathagar", "Pathagar est un serveur qui contient une collection de livres que tu peux lire sans avoir à les télécharger depuis Internet."); ?>
 <?php hard_link("/content/livkreyol", "Lire des livres en creole haitien", "Ici sont des livres et audio en creole haitien."); ?>
 <?php hard_link("/content/syans", "Lire des livres de sciences", "Ici sont des livres educatifs sur sciences en creole haitien pour enfants de 7 - 9 ans."); ?>
