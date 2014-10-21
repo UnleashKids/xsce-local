@@ -7,10 +7,11 @@ Changes
 =======
 
 * rachel_wamp_102013.zip downloaded to /library/downloads and unzipped into /library/rachel
-* chown apache:apache /library/rachel/bin/www
+* chown -R apache:apache /library/rachel/bin/www
 * ln -s /library/rachel/bin/www/ /var/www/html/rachel
 * this install does not have mysql so search is not supported at this time
 * edit /library/rachel/bin/www/index.html to fix absolute links and remove search
+* add to xs-portal
 
 General Information
 ===================
