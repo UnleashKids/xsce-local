@@ -1,7 +1,19 @@
 ======================================================
 School Server Community Edition (XSCE)- Local Versions
 ======================================================
+This branch is for the Ghana Axim install
 
+Changes
+=======
+
+* rachel_wamp_102013.zip downloaded to /library/downloads and unzipped into /library/rachel
+* chown apache:apache /library/rachel/bin/www
+* ln -s /library/rachel/bin/www/ /var/www/html/rachel
+* this install does not have mysql so search is not supported at this time
+* edit /library/rachel/bin/www/index.html to fix absolute links and remove search
+
+General Information
+===================
 This repo is a home for files changed by a local installation of xsce.  Because it is
 PUBLICLY VIEWABLE it is not recommended to put passwords here.  However, password hashes
 should be OK.
