@@ -16,31 +16,17 @@
 <div id="main"> 
 <br><h2>Interesting Things You Can Do Here:</h2>
 
-<?php service_link("pathagar", "Read Books on Pathagar", "Pathagar is a Book Server that contains a local collection of books that you can read without downloading them from the internet."); ?>
-<h2>Wikipedia</h2>
-<?php hard_link("/iiab/zim/iframe/schools-wikipedia-full-20081023-rc5", "Wikipedia for Schools", "Selection of 6.000 Wikipedia articles for school children","/library/knowledge/modules/wikipedia-zim/schools-wikipedia-full-20081023-rc5.zim"); ?>
+<h2>Internet Collection</h2>
+<?php hard_link("/rachel", "RACHEL", "RACHEL is a collection of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily."); ?>
+
+<h2>More Wikipedias</h2>
 <?php hard_link("/iiab/zim/iframe/wikipedia_en_all_nopic_01_2012", "Wikipedia in English", "The full English Wikipedia","/library/knowledge/modules/wikipedia-zim/wikipedia_en_all_nopic_01_2012.zim"); ?>
-<?php hard_link("/iiab/zim/iframe/wikipedia_en_simple_all_08_2011", "Wikipedia in Simplified English", "For non-native speakers of English","/library/knowledge/modules/wikipedia-zim/wikipedia_en_simple_all_08_2011.zim"); ?>
 <?php hard_link("/iiab/zim/iframe/wikipedia_fr_all_09_2012", "Wikipédia en français", "Wikipédia est une encyclopédie multilingue, universelle et librement diffusable.","/library/knowledge/modules/wikipedia-zim/wikipedia_fr_all_09_2012.zim"); ?>
 <?php hard_link("/iiab/zim/iframe/wikipedia_ar_all_02_2013", "ويكيبيديا", "ويكيبيديا كاملة باللغة العربية","/library/knowledge/modules/wikipedia-zim/wikipedia_ar_all_02_2013.zim"); ?>
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
-<h2>Khan Academy</h2>
-<?php hard_link("/iiab/video/khan/3", "Math Khan Academy", "Math Videos from the Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/3"); ?>
-<?php hard_link("/iiab/video/khan/4", "Science Khan Academy", "Science Videos from the Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/4"); ?>
-<?php hard_link("/iiab/video/khan/5", "Test Preparation", "Test Preparation Videos from the Khan Academy","/library/knowledge/modules/khanacademy/khanlinks/5"); ?>
+
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
-<h2>Other Content</h2>
-<?php hard_link("/rachel", "RACHEL", "RACHEL is a collection of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily."); ?>
-<?php service_link("iiab", "Internet In A Box", "Internet-in-a-Box is a another collection of important material on the internet, stored locally where you can reach it easily."); ?>
-<?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
-<?php // iiab_link("Internet In A Box", 
-//                "Internet-in-a-Box is a copy of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily.",
-//                "Searching for Internet In A Box"); 
-?>
-<?php service_link("moodle", "Moodle Home Page", "Moodle is a collection of lessons and study materials organized to help you learn many fascinating things."); ?>
-<?php service_link("upload", "Upload Files", "From this link you can upload various files such as images and activities"); ?>
-<?php service_link("activity-server", "Download an Activity", "You can add a new activity to your XO from this link."); ?>
 
 <BR> Enjoy Exploring!
 </div><!-- #main -->
