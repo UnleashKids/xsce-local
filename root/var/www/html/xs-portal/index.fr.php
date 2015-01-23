@@ -27,10 +27,10 @@
 
 <h2>cartes</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
-
+<!--
 <h2>autre contenu</h2>
 <?php hard_link("/content", "parcourir autre contenu", "Ce est l'endroit pour les téléchargements locales."); ?>
-
+-->
 <BR> Bon Voyage!
 </div><!-- #main -->
 </div><!-- #wrapper -->
