@@ -5,12 +5,12 @@
 <HTML>
 <HEAD>
 
-<TITLE>Welcome to the School Server</TITLE>
+<TITLE>Internet in a Box</TITLE>
 
 </HEAD>
 <BODY>
 <div id="wrapper">	
-<h1>Welcome to the School Server</h1>
+<h1>Internet in a Box</h1>
 <?php require 'incl/banner.html'; ?>
 
 <div id="main"> 
@@ -27,6 +27,9 @@
 
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
+
+<h2>Other Content</h2>
+<?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>
 
 <BR> Enjoy Exploring!
 </div><!-- #main -->
