@@ -28,6 +28,10 @@
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
+<h2>AGSHS</h2>
+<?php hard_link("/AGSHS", "School Content", "Teacher handouts, Student projects, Support files."); ?>
+<?php hard_link("/info/AGSHS/solar", "Solar (Dis)Charging", "Battery Graphs: help us keep our digital library on!", "/home/site/AGSHS/solar"); ?>
+
 <!--
 <h2>Other Content</h2>
 <?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>

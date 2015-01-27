@@ -27,6 +27,11 @@
 
 <h2>cartes</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps de Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
+
+<h2>AGSHS</h2>
+<?php hard_link("/AGSHS", "Contenu de l'école", "documents de l'enseignant , les projets d'étudiants , des fichiers de support"); ?>
+<?php hard_link("/info/AGSHS/solar", "(Dé)Charge solaire", "Graphiques batterie : nous aider à maintenir notre bibliothèque numérique sur !", "/home/site/AGSHS/solar"); ?>
+
 <!--
 <h2>autre contenu</h2>
 <?php hard_link("/content", "parcourir autre contenu", "Ce est l'endroit pour les téléchargements locales."); ?>
