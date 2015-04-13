@@ -22,9 +22,8 @@
 <h2>More Wikipedias</h2>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink">
-		<a href="http://schoolserver:3000/wikipedia_rw_all_2015_04" _target="blank">Wikipedia in Kinyarwanda</a>
-  </div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015_04" target="_blank">Wikipedia in Kinyarwanda</a></div>
+  <div class="xsServiceDesc">The Wikipedia, stored locally where you can reach it easily.</div>
 </div>
 
 <a href="http://schoolserver:3000/wikipedia_rw_all_2015_04">Wikipedia in Kinyarwanda</a>
@@ -36,7 +35,6 @@
 
 <h2>Local Content</h2>
 <?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
-
 <!--
 <h2>Other Content</h2>
 <?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>
