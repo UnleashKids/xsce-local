@@ -22,11 +22,16 @@
 <h2>More Wikipedias</h2>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015_04" target="_blank">Wikipedia in Kinyarwanda</a></div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015_04/?" target="_blank">Wikipedia in Kinyarwanda</a></div>
   <div class="xsServiceDesc">The Wikipedia, stored locally where you can reach it easily.</div>
 </div>
 
-<a href="http://schoolserver:3000/wikipedia_rw_all_2015_04">Wikipedia in Kinyarwanda</a>
+<h2>Khan Academy</h2>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">Khan Academy</a></div>
+  <div class="xsServiceDesc">KA Lite, the offline version of Khan Academy.</div>
+</div>
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
 -->
