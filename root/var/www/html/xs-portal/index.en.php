@@ -21,6 +21,12 @@
 
 <h2>More Wikipedias</h2>
 
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink">
+		<a href="http://schoolserver:3000/wikipedia_rw_all_2015_04" _target="blank">Wikipedia in Kinyarwanda</a>
+  </div>
+</div>
+
 <a href="http://schoolserver:3000/wikipedia_rw_all_2015_04">Wikipedia in Kinyarwanda</a>
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
@@ -28,9 +34,8 @@
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
-<h2>AGSHS</h2>
-<?php hard_link("/AGSHS", "School Content", "Teacher handouts, Student projects, Support files."); ?>
-<?php hard_link("/info/AGSHS/solar", "Solar (Dis)Charging", "Battery Graphs: help us keep our digital library on!", "/home/site/AGSHS/solar"); ?>
+<h2>Local Content</h2>
+<?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
 
 <!--
 <h2>Other Content</h2>
