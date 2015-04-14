@@ -26,6 +26,11 @@
   <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
 </div>
 
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015-04" target="_blank">Kinyarwanda Wikipedia</a></div>
+  <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
+</div>
+
 <h2>Khan Academy</h2>
 
 <div class="xsServiceWrapper">
