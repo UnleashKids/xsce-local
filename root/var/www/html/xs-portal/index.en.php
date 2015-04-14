@@ -22,8 +22,8 @@
 <h2>More Wikipedias</h2>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015_04/?.html" target="_blank">Wikipedia in Kinyarwanda</a></div>
-  <div class="xsServiceDesc">The Wikipedia, stored locally where you can reach it easily.</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
+  <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
 </div>
 
 <h2>Khan Academy</h2>
