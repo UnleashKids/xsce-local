@@ -25,12 +25,12 @@
 	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
   <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
 </div>
-
+<!--
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015-04" target="_blank">Kinyarwanda Wikipedia</a></div>
   <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
 </div>
-
+-->
 <h2>Khan Academy</h2>
 
 <div class="xsServiceWrapper">
@@ -43,7 +43,17 @@
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
-<h2>Local Content</h2>
+<h2>More Services</h2>
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">Own Cloud</a></div>
+  <div class="xsServiceDesc">Owncloud is an offline file sharing, calendaring, and collaboration server.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">ELGG</a></div>
+  <div class="xsServiceDesc">ELGG is an offline social media server.</div>
+</div>
+
 <?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
 <!--
 <h2>Other Content</h2>
