@@ -10,20 +10,20 @@
 </HEAD>
 <BODY>
 <div id="wrapper">
-<h1>XSCE School Server</h1>
+<h1>Welcome to the XSCE School Server</h1>
 <?php require 'incl/banner.html'; ?>
 
 <div id="main">
 <br><h2>Interesting Things You Can Do Here:</h2>
 
-<h2>Internet Collections</h2>
+<h2>Internet in a Box: Wikipediae, Gutenberg, Wiktionaries</h2>
 <?php hard_link("/rachel", "RACHEL", "RACHEL is a collection of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily."); ?>
 
 <!-- <h2>More Wikipedias</h2>-->
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
-  <div class="xsServiceDesc">KIWIX is another collection of Wikipedias, Wikidictionaries, Project Gutenberg and other Internet content served offline.</div>
+  <div class="xsServiceDesc">KIWIX is a collection of Wikipediae, Wiktionaries, Project Gutenberg and other Internet content served offline.</div>
 </div>
 
 <div class="xsServiceWrapper">
@@ -50,7 +50,7 @@
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">ELGG</a></div>
+	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">Elgg</a></div>
   <div class="xsServiceDesc">Elgg is an offline social media server (user Admin, password changeme).</div>
 </div>
 
@@ -63,8 +63,8 @@
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">MUNIN</a></div>
-  <div class="xsServiceDesc">MUNIN is an administrative application to monitor server performance (user admin, password munindxs).</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">Munin</a></div>
+  <div class="xsServiceDesc">Munin is an administrative application to monitor server performance (user admin, password munindxs).</div>
 </div>
 
 <div class="xsServiceWrapper">
