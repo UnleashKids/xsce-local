@@ -35,7 +35,7 @@
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">Khan Academy</a></div>
-  <div class="xsServiceDesc">KA Lite, the offline version of Khan Academy.</div>
+  <div class="xsServiceDesc">KA Lite, the offline version of Khan Academy (user kalite, password kalite).</div>
 </div>
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
@@ -46,20 +46,20 @@
 <h2>More Services</h2>
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">Your Own Cloud</a></div>
-  <div class="xsServiceDesc">owncloud is an offline file sharing, calendaring, and collaboration server.</div>
+  <div class="xsServiceDesc">owncloud is an offline file sharing, calendaring, and collaboration server (user Admin, password changeme).</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">ELGG</a></div>
-  <div class="xsServiceDesc">ELGG is an offline social media server.</div>
+  <div class="xsServiceDesc">Elgg is an offline social media server (user Admin, password changeme).</div>
 </div>
 
 <?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
 
 <h2>Tools for Administrators</h2>
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">XOVIS</a></div>
-  <div class="xsServiceDesc">XOVIS is an volunteer contributed software to graph statistics on XO use of Activities.</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">XOvis</a></div>
+  <div class="xsServiceDesc">XOvis is volunteer contributed software to graph statistics on XO use of Activities.</div>
 </div>
 
 <div class="xsServiceWrapper">
