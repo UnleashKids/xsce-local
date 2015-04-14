@@ -43,7 +43,7 @@
 <h2>Maps</h2>
 <?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
-<h2>More Services</h2>
+<h2>Collaboration</h2>
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">Your Own Cloud</a></div>
   <div class="xsServiceDesc">owncloud is an offline file sharing, calendaring, and collaboration server (user Admin, password changeme).</div>
