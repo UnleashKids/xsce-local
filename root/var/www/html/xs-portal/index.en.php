@@ -16,10 +16,10 @@
 <div id="main">
 <br><h2>Interesting Things You Can Do Here:</h2>
 
-<h2>Internet Collection</h2>
+<h2>Internet Collections</h2>
 <?php hard_link("/rachel", "RACHEL", "RACHEL is a collection of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily."); ?>
 
-<h2>More Wikipedias</h2>
+<!-- <h2>More Wikipedias</h2>-->
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
