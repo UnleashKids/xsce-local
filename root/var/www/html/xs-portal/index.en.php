@@ -63,7 +63,7 @@
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">Munin</a></div>
+	<div class="xsServiceLink"><a href="http://schoolserver/munin" target="_blank">Munin</a></div>
   <div class="xsServiceDesc">Munin is an administrative application to monitor server performance (user admin, password munindxs).</div>
 </div>
 
