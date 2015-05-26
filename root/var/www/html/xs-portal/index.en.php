@@ -5,53 +5,54 @@
 <HTML>
 <HEAD>
 
-<TITLE>XSCE School Server</TITLE>
+<TITLE>Internet-in-a-Box</TITLE>
 
 </HEAD>
 <BODY>
 <div id="wrapper">
-<h1>Welcome to the XSCE School Server</h1>
+<h1>Internet-in-a-Box</h1>
+<h3>School Server powered by XSCE</h3>
 <?php require 'incl/banner.html'; ?>
 
 <div id="main">
-<br><h2>Interesting Things You Can Do Here:</h2>
+<br><h2>Interesting Things:</h2>
 
-<h2>Internet in a Box: Wikipediae, Gutenberg, Wiktionaries</h2>
-<?php hard_link("/rachel", "RACHEL", "RACHEL is a collection of some of the most important material on the internet, such as the Wikipedia, stored locally where you can reach it easily."); ?>
+<h2>Wikipedia, Gutenberg Books, Wiktionaries</h2>
+<?php hard_link("/rachel", "RACHEL", "Remote Area Community Hotspot for Education and Learning: best free materials from the Internet!"); ?>
 
 <!-- <h2>More Wikipedias</h2>-->
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
-  <div class="xsServiceDesc">KIWIX is a collection of Wikipediae, Wiktionaries, Project Gutenberg and other Internet content served offline.</div>
+  <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015-04" target="_blank">Kinyarwanda Wikipedia</a></div>
-  <div class="xsServiceDesc">The Kinyarwanda Wikipedia is on the KIWIX menu.</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015-04/" target="_blank">Kinyarwanda</a></div>
+  <div class="xsServiceDesc">The Kinyarwanda Wikipedia is in the middle of the KIWIX menu.</div>
 </div>
 
 <h2>Khan Academy</h2>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">Khan Academy</a></div>
-  <div class="xsServiceDesc">KA Lite, the offline version of Khan Academy (user kalite, password kalite).</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">KA Lite</a></div>
+  <div class="xsServiceDesc">Offline version of Khan Academy (user kalite, password kalite).</div>
 </div>
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
 -->
 <h2>Maps</h2>
-<?php hard_link("/iiab/static/map.html", "Open Street Maps", "Open Street Maps from Internet-in-a-Box","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
+<?php hard_link("/iiab/static/map.html", "OpenStreetMap", "Maps of the entire world from Internet-in-a-Box.","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
 <h2>Collaboration</h2>
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">Your Own Cloud</a></div>
-  <div class="xsServiceDesc">owncloud is an offline file sharing, calendaring, and collaboration server (user Admin, password changeme).</div>
+	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">ownCloud</a></div>
+  <div class="xsServiceDesc">Offline file sharing, calendaring, and collaboration for teachers especially (user Admin, password changeme).</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">Elgg</a></div>
-  <div class="xsServiceDesc">Elgg is an offline social media server (user Admin, password changeme).</div>
+  <div class="xsServiceDesc">Offline social media for students especially (user Admin, password changeme).</div>
 </div>
 
 <?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
@@ -59,23 +60,23 @@
 <h2>Tools for Administrators</h2>
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">XOvis</a></div>
-  <div class="xsServiceDesc">XOvis is volunteer contributed software to graph statistics on XO use of Activities.</div>
+  <div class="xsServiceDesc">Graphs statistics on XO use of Activities.</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/munin" target="_blank">Munin</a></div>
-  <div class="xsServiceDesc">Munin is an administrative application to monitor server performance (user admin, password munindxs).</div>
+  <div class="xsServiceDesc">Drill down to monitor server performance (user admin, password munindxs).</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/admin" target="_blank">Admin Console</a></div>
-  <div class="xsServiceDesc">The Admin Console permits control of the server using a graphical user interface (user xsce-admin, password g0adm1n).</div>
+  <div class="xsServiceDesc">Graphically facilitates control of the server (user xsce-admin).</div>
 </div>
 <!--
 <h2>Other Content</h2>
 <?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>
 -->
-<BR> Enjoy Exploring!
+<BR><B> Enjoy Exploring & Building Your Library! &nbsp; <I>volunteer@unleashkids.org</I></B>
 </div><!-- #main -->
 </div><!-- #wrapper -->
 </BODY>
