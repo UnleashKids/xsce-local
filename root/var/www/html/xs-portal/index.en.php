@@ -36,7 +36,7 @@
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">KA Lite</a></div>
-  <div class="xsServiceDesc">Offline version of Khan Academy (user kalite, password kalite).</div>
+  <div class="xsServiceDesc">Offline version of Khan Academy.</div>
 </div>
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
@@ -47,15 +47,15 @@
 <h2>Collaboration</h2>
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">ownCloud</a></div>
-  <div class="xsServiceDesc">Offline file sharing, calendaring, and collaboration for teachers especially (user Admin, password changeme).</div>
+  <div class="xsServiceDesc">Offline file sharing, calendaring, and collaboration for teachers especially.</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">Elgg</a></div>
-  <div class="xsServiceDesc">Offline social media for students especially (user Admin, password changeme).</div>
+  <div class="xsServiceDesc">Offline social media for students especially.</div>
 </div>
 
-<?php hard_link("/content", "Access Other Content", "Put additional content in /library/content and any subdirectories and link to it with this function, such as syans in Haiti."); ?>
+<?php hard_link("/content", "Access Other Content", "TestPrep PDFs and a growing  list of documents."); ?>
 
 <h2>Tools for Administrators</h2>
 <div class="xsServiceWrapper">
@@ -65,12 +65,12 @@
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/munin" target="_blank">Munin</a></div>
-  <div class="xsServiceDesc">Drill down to monitor server performance (user admin, password munindxs).</div>
+  <div class="xsServiceDesc">Drill down to monitor server performance.</div>
 </div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver/admin" target="_blank">Admin Console</a></div>
-  <div class="xsServiceDesc">Graphically facilitates control of the server (user xsce-admin).</div>
+  <div class="xsServiceDesc">Graphically facilitates control of the server.</div>
 </div>
 <!--
 <h2>Other Content</h2>
