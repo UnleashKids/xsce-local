@@ -27,11 +27,6 @@
   <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
 </div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_rw_all_2015-04/" target="_blank">Kinyarwanda</a></div>
-  <div class="xsServiceDesc">The Kinyarwanda Wikipedia is in the middle of the KIWIX menu.</div>
-</div>
-
 <h2>Khan Academy</h2>
 
 <div class="xsServiceWrapper">
