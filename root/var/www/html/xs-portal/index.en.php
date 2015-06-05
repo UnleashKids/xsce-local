@@ -137,7 +137,7 @@
 	<li>ownCloud: Admin/changeme</li>
 	<li>Elgg: Admin/changeme</li>
 	<li>Munin: admin/munindxs</li>
-	<li>Admin Console: xsce-admin</li>
+	<li>Admin Console: x<a href="/software" target="_blank">s</a>ce-admin</li>
 </ul>
 
 
