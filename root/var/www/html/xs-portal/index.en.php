@@ -130,6 +130,17 @@
 	<div class="xsServiceLink"><a href="http://schoolserver/admin" target="_blank">Admin Console</a></div>
   <div class="xsServiceDesc">Graphically facilitates control of the server.</div>
 </div>
+
+<h2>Temporary Passwords</h2>
+<ul>
+	<li>KA Lite: kalite/kalite</li>
+	<li>ownCloud: Admin/changeme</li>
+	<li>Elgg: Admin/changeme</li>
+	<li>Munin: admin/munindxs</li>
+	<li>Admin Console: xsce-admin</li>
+</ul>
+
+
 <!--
 <h2>Other Content</h2>
 <?php hard_link("/content", "Browse Other Content", "This is the place for local downloads."); ?>
