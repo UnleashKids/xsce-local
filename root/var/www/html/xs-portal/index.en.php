@@ -23,8 +23,13 @@
 <!-- <h2>More Wikipedias</h2>-->
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
   <div class="xsServiceDesc">The complete English Wikipedia as of May 2015.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">English Dictionary</a></div>
+  <div class="xsServiceDesc">The English Wiktionary.</div>
 </div>
 
 <div class="xsServiceWrapper">
@@ -32,15 +37,53 @@
   <div class="xsServiceDesc">6000 articles selected for school children.</div>
 </div>
 
+<!--
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_ar_all_2015-05/" target="_blank">Wikipedia in Arabic</a></div>
   <div class="xsServiceDesc">The Wikipedia in Arabic as of May 2015.</div>
 </div>
 
 <div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_fr_all_2015-03/" target="_blank">Wikipedia in French</a></div>
+  <div class="xsServiceDesc">The Wikipedia in French as of March 2015.</div>
+</div>
+-->
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_business_2015-02/" target="_blank">TED Talks - Business</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_design_2015-02/" target="_blank">TED Talks - Design</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_entertainment_2015-02/" target="_blank">TED Talks - Entertainment</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_global_issues_2015-02/" target="_blank">TED Talks - Global Issues</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_science_2015-02/" target="_blank">TED Talks - Science</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">TED Talks - Technology</a></div>
+  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<!--
+<div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
   <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
 </div>
+-->
 
 <h2>Khan Academy</h2>
 
