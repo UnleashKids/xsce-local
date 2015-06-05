@@ -33,7 +33,7 @@
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_for-schools_2013-01/" target="_blank">Wikipedia for Schools</a></div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_for_schools_opt_2013/" target="_blank">Wikipedia for Schools</a></div>
   <div class="xsServiceDesc">6000 articles selected for school children.</div>
 </div>
 
@@ -76,6 +76,11 @@
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">TED Talks - Technology</a></div>
   <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/gutenberg_en_all_10_2014/" target="_blank">Project Gutenberg</a></div>
+  <div class="xsServiceDesc">Collection of English classic literature.</div>
 </div>
 
 <!--
