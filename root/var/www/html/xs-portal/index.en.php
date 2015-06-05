@@ -23,13 +23,23 @@
 <!-- <h2>More Wikipedias</h2>-->
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
-  <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
+  <div class="xsServiceDesc">The complete English Wikipedia as of May 2015.</div>
 </div>
 
 <div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
-  <div class="xsServiceDesc">The complete English Wikipedia as of May 2015.</div>
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_for-schools_2013-01/" target="_blank">Wikipedia for Schools</a></div>
+  <div class="xsServiceDesc">6000 articles selected for school children.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_ar_all_2015-05/" target="_blank">Wikipedia in Arabic</a></div>
+  <div class="xsServiceDesc">The Wikipedia in Arabic as of May 2015.</div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
+  <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
 </div>
 
 <h2>Khan Academy</h2>
