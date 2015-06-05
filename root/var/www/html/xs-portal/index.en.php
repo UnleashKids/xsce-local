@@ -27,6 +27,11 @@
   <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
 </div>
 
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
+  <div class="xsServiceDesc">The complete English Wikipedia as of May 2015.</div>
+</div>
+
 <h2>Khan Academy</h2>
 
 <div class="xsServiceWrapper">
