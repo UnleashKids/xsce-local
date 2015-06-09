@@ -48,40 +48,39 @@
   <div class="xsServiceDesc">The Wikipedia in French as of March 2015.</div>
 </div>
 -->
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_business_2015-02/" target="_blank">TED Talks - Business</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
-
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_design_2015-02/" target="_blank">TED Talks - Design</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
-
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_entertainment_2015-02/" target="_blank">TED Talks - Entertainment</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
-
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_global_issues_2015-02/" target="_blank">TED Talks - Global Issues</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
-
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_science_2015-02/" target="_blank">TED Talks - Science</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
-
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">TED Talks - Technology</a></div>
-  <div class="xsServiceDesc">TED stands for Technology, Entertainment, Design. These are talks from conferences.</div>
-</div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/gutenberg_en_all_10_2014/" target="_blank">Project Gutenberg</a></div>
   <div class="xsServiceDesc">Collection of English classic literature.</div>
 </div>
+
+<h2>TED Talks - Technology, Entertainment, Design. These are talks from conferences.</h2>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_business_2015-02/" target="_blank">Business</a></div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_design_2015-02/" target="_blank">Design</a></div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_entertainment_2015-02/" target="_blank">Entertainment</a></div>
+</div>
+<BR>
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_global_issues_2015-02/" target="_blank">Global Issues</a></div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_science_2015-02/" target="_blank">Science</a></div>
+</div>
+
+<div class="xsServiceWrapper">
+	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">Technology</a></div>
+</div>
+<BR>
+
 
 <!--
 <div class="xsServiceWrapper">
