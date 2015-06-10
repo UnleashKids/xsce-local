@@ -11,21 +11,13 @@
 <BODY>
 <div id="wrapper">
 	<div id="xsBanner">
-		<div class="xsIcon">
-		  <img src="images/xs_icon.png">
-	  </div>
-  	<div class="xsLanguage">
-  		<ul id="xsLanguageSelect">
-  			<li><a href="?en">English</a></li>
-  			<li><a href="?fr">Français</a></li>
-  		</ul>
-  	</div>
+    <?php require 'incl/banner.html'; ?>
   	<div>
 	    <h1>Internet-in-a-Box</h1>
       <h3>School Server powered by XSCE</h3>
 	  </div>
   </div>
-<div style="clear:both";></div>
+  <div style="clear:both";></div>
 
 <div id="main">
 <br><h2>Interesting Things:</h2>
