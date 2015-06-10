@@ -10,15 +10,30 @@
 </HEAD>
 <BODY>
 <div id="wrapper">
-<h1>Internet-in-a-Box</h1>
-<h3>School Server powered by XSCE</h3>
-<?php require 'incl/banner.html'; ?>
+	<div id="xsBanner">
+		<div class="xsIcon">
+		  <img src="images/xs_icon.png">
+	  </div>
+  	<div class="xsLanguage">
+  		<ul id="xsLanguageSelect">
+  			<li><a href="?en">English</a></li>
+  			<li><a href="?fr">Français</a></li>
+  		</ul>
+  	</div>
+  	<div>
+	    <h1>Internet-in-a-Box</h1>
+      <h3>School Server powered by XSCE</h3>
+	  </div>
+  </div>
+<div style="clear:both";></div>
 
 <div id="main">
 <br><h2>Interesting Things:</h2>
 
-<h2>Wikipedia, Gutenberg Books, Wiktionaries</h2>
-<?php hard_link("/rachel", "RACHEL", "Remote Area Community Hotspot for Education and Learning: best free materials from the Internet!"); ?>
+<div class="xsMenuHeading">
+	<img src="/common/images/220px-Wikipedia-logo-v2.svg.png">
+	<h2>Wikipedia, Gutenberg Books, Wiktionaries</h2>
+</div>
 
 <!-- <h2>More Wikipedias</h2>-->
 
@@ -49,12 +64,17 @@
 </div>
 -->
 
+<?php hard_link("/rachel", "RACHEL", "Remote Area Community Hotspot for Education and Learning: best free materials from the Internet!"); ?>
+
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/gutenberg_en_all_10_2014/" target="_blank">Project Gutenberg</a></div>
   <div class="xsServiceDesc">Collection of English classic literature.</div>
 </div>
 
-<h2>TED Talks - Technology, Entertainment, Design. These are talks from conferences.</h2>
+<div class="xsMenuHeading">
+	<img src="/common/images/ted-talks-logo-150x150.jpg">
+	<h2>Conferences on Technology, Entertainment, Design.</h2>
+</div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_business_2015-02/" target="_blank">Business</a></div>
@@ -79,7 +99,7 @@
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">Technology</a></div>
 </div>
-<BR>
+<BR><BR>
 
 
 <!--
@@ -89,7 +109,10 @@
 </div>
 -->
 
-<h2>Khan Academy</h2>
+<div class="xsMenuHeading">
+	<img src="/common/images/khan-logo-vertical-transparent.png">
+	<h2>Khan Academy</h2>
+</div>
 
 <div class="xsServiceWrapper">
 	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">KA Lite</a></div>
@@ -98,7 +121,11 @@
 <!--
 <?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
 -->
-<h2>Maps</h2>
+<div class="xsMenuHeading">
+	<img src="/common/images/osm.jpg">
+	<h2>Maps</h2>
+</div>
+
 <?php hard_link("/iiab/static/map.html", "OpenStreetMap", "Maps of the entire world from Internet-in-a-Box.","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
 <h2>Collaboration</h2>
