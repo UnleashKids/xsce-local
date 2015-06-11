@@ -29,90 +29,48 @@
 
 <!-- <h2>More Wikipedias</h2>-->
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_all_2015-05/" target="_blank">Full English Wikipedia</a></div>
-  <div class="xsServiceDesc">The complete English Wikipedia as of May 2015.</div>
-</div>
+<?php kiwix_link("wikipedia_en_all_2015-05", "Full English Wikipedia", "The complete English Wikipedia as of May 2015."); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wiktionary_en_all_2015-05/" target="_blank">English Dictionary</a></div>
-  <div class="xsServiceDesc">The English Wiktionary.</div>
-</div>
+<?php kiwix_link("wiktionary_en_all_2015-05", "English Dictionary", "The English Wiktionary."); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_en_for_schools_opt_2013/" target="_blank">Wikipedia for Schools</a></div>
-  <div class="xsServiceDesc">6000 articles selected for school children.</div>
-</div>
+<?php kiwix_link("wikipedia_en_for_schools_opt_2013", "Wikipedia for Schools", "6000 articles selected for school children."); ?>
 
 <!--
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_ar_all_2015-05/" target="_blank">Wikipedia in Arabic</a></div>
-  <div class="xsServiceDesc">The Wikipedia in Arabic as of May 2015.</div>
-</div>
+<?php kiwix_link("wikipedia_ar_all_2015-05", "Wikipedia in Arabic", "The Wikipedia in Arabic as of May 2015."); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/wikipedia_fr_all_2015-03/" target="_blank">Wikipedia in French</a></div>
-  <div class="xsServiceDesc">The Wikipedia in French as of March 2015.</div>
-</div>
+<?php kiwix_link("/wikipedia_fr_all_2015-03", "Wikipedia in French", "The Wikipedia in French as of March 2015."); ?>
 -->
 
 <?php hard_link("/rachel", "RACHEL", "Remote Area Community Hotspot for Education and Learning: best free materials from the Internet!"); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/gutenberg_en_all_10_2014/" target="_blank">Project Gutenberg</a></div>
-  <div class="xsServiceDesc">Collection of English classic literature.</div>
-</div>
+<?php kiwix_link("gutenberg_en_all_10_2014", "Project Gutenberg", "Collection of English classic literature."); ?>
 
 <div class="xsMenuHeading">
 	<img src="/common/images/ted-talks-logo-150x150.jpg">
 	<h2>Conferences on Technology, Entertainment, Design.</h2>
 </div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_business_2015-02/" target="_blank">Business</a></div>
-</div>
+<?php kiwix_link("ted_en_business_2015-02", "Business"); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_design_2015-02/" target="_blank">Design</a></div>
-</div>
+<?php kiwix_link("ted_en_design_2015-02", "Design"); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_entertainment_2015-02/" target="_blank">Entertainment</a></div>
-</div>
+<?php kiwix_link("ted_en_entertainment_2015-02", "Entertainment"); ?>
 <BR>
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_global_issues_2015-02/" target="_blank">Global Issues</a></div>
-</div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_science_2015-02/" target="_blank">Science</a></div>
-</div>
+<?php kiwix_link("ted_en_global_issues_2015-02", "Global Issue"); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000/ted_en_technology_2015-02/" target="_blank">Technology</a></div>
-</div>
+<?php kiwix_link("ted_en_science_2015-02", "Science"); ?>
+
+<?php kiwix_link("ted_en_technology_2015-02", "Technology"); ?>
 <BR><BR>
-
-
-<!--
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:3000" target="_blank">KIWIX</a></div>
-  <div class="xsServiceDesc">Special Wikipediae, Wiktionaries, TED Talks, and quality offline content.</div>
-</div>
--->
 
 <div class="xsMenuHeading">
 	<img src="/common/images/khan-logo-vertical-transparent.png">
 	<h2>Khan Academy</h2>
 </div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:8008" target="_blank">KA Lite</a></div>
-  <div class="xsServiceDesc">Offline version of Khan Academy.</div>
-</div>
-<!--
-<?php hard_link("/iiab/zim/iframe/wikipedia_sw_all_04_2011", "Wikipedia katika Swahili", "Wikipedia ni kamusi elezo huru ya lugha nyingi katika mtandao.","/library/knowledge/modules/wikipedia-zim/wikipedia_sw_all_04_2011.zim"); ?>
--->
+<?php kalite_link("KA Lite", "Offline version of Khan Academy."); ?>
+
 <div class="xsMenuHeading">
 	<img src="/common/images/osm.jpg">
 	<h2>Maps</h2>
@@ -121,33 +79,20 @@
 <?php hard_link("/iiab/static/map.html", "OpenStreetMap", "Maps of the entire world from Internet-in-a-Box.","/library/knowledge/modules/openstreetmap/mod_tile64"); ?>
 
 <h2>Collaboration</h2>
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/owncloud" target="_blank">ownCloud</a></div>
-  <div class="xsServiceDesc">Offline file sharing, calendaring, and collaboration for teachers especially.</div>
-</div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/elgg" target="_blank">Elgg</a></div>
-  <div class="xsServiceDesc">Offline social media for students especially.</div>
-</div>
+<?php hard_link("/owncloud", "ownCloud", "Offline file sharing, calendaring, and collaboration for teachers especially."); ?>
+
+<?php hard_link("/elgg", "Elgg", "Offline social media for students especially."); ?>
 
 <?php hard_link("/content", "Access Other Content", "TestPrep PDFs and a growing  list of documents."); ?>
 
 <h2>Tools for Administrators</h2>
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver:5984/xovis/_design/xovis-couchapp/index.html" target="_blank">XOvis</a></div>
-  <div class="xsServiceDesc">Graphs statistics on XO use of Activities.</div>
-</div>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/munin" target="_blank">Munin</a></div>
-  <div class="xsServiceDesc">Drill down to monitor server performance.</div>
-</div>
+<?php xovis_link("XOvis", "Graphs statistics on XO use of Activities."); ?>
 
-<div class="xsServiceWrapper">
-	<div class="xsServiceLink"><a href="http://schoolserver/admin" target="_blank">Admin Console</a></div>
-  <div class="xsServiceDesc">Graphically facilitates control of the server.</div>
-</div>
+<?php hard_link("/munin", "Munin", "Drill down to monitor server performance."); ?>
+
+<?php hard_link("/admin", "Admin Console", "Graphically facilitates control of the server.", "/opt/schoolserver/admin_console"); ?>
 
 <h2>Temporary Passwords</h2>
 <ul>
