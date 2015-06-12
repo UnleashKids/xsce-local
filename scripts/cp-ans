@@ -1,31 +1,9 @@
 #!/bin/bash
 
-# Absolute path to this script.
-SCRIPT=$(readlink -f $0)
-# Absolute path this script is in.
-SCRIPTPATH=`dirname $SCRIPT`
-cd $SCRIPTPATH
-cd ..
+# assumes we are in /opt/schoolserver/xsce-local
 
-# Find xsce repo
+ANSIBLE_DIR="/opt/schoolserver/xsce"
 
-ANSIBLE_DIR=""
-
-if [ -f /root/xsce/xsce.yml ]
-then
- ANSIBLE_DIR="/root/xsce"
- echo "Copying to /root/xsce/"
-elif [ -f /var/local/xsce/xsce.yml ]
- then
- ANSIBLE_DIR=="/var/local/xsce"
- echo "Copying to /var/local/xsce"
-else
- echo "xsce repo not found"
-fi
-
-if [ $ANSIBLE_DIR!="" ]
-then
-  /usr/bin/cp -Rf ansible/* $ANSIBLE_DIR
-  cd $ANSIBLE_DIR
-  git update-index --assume-unchanged vars/local_vars.yml
-fi  
+/usr/bin/cp -Rf ansible/* $ANSIBLE_DIR
+cd $ANSIBLE_DIR
+git update-index --assume-unchanged vars/local_vars.yml

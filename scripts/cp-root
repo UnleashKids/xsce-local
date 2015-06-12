@@ -1,9 +1,7 @@
 #!/bin/bash
-# Absolute path to this script.
-SCRIPT=$(readlink -f $0)
-# Absolute path this script is in.
-SCRIPTPATH=`dirname $SCRIPT`
-cd $SCRIPTPATH
-cd ..
-pwd
-/usr/bin/cp -Rf root/* /
+
+# assumes we are in /opt/schoolserver/xsce-local
+
+ANSIBLE_DIR="/opt/schoolserver/xsce"
+
+/usr/bin/cp -Rf root/var/www/html/xs-portal/* /var/www/html/xs-portal
