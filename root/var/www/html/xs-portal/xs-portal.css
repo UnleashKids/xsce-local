@@ -32,6 +32,25 @@
 	border-color:#333;
 }
 
+.xsIcon img{
+	width:auto;
+	height:200px;
+}
+
+.xsPortalImg {
+	width:auto;
+	height:200px;
+	float:right;
+	border-width:3px;
+	border-style:solid;
+	border-color:#333;
+}
+
+.xsPortalImg img{
+	width:auto;
+	height:200px;
+}
+
 .xsLanguage {
 	width:150px;
 	float:right;
