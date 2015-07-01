@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# assumes we are in /opt/schoolserver/xsce-local
+
+ANSIBLE_DIR="/opt/schoolserver/xsce"
+
+/usr/bin/cp -Rf root/var/www/html/xs-portal/* /var/www/html/xs-portal
+
+cp -f root/etc/httpd/conf.d/xs-portal-lang.inc /etc/httpd/conf.d
+cp -f root/etc/httpd/conf.d/xs-portal.conf /etc/httpd/conf.d
+ln -s /var/www/html/xs-portal/index.en.php /var/www/html/xs-portal/index.php
+
+systemctl restart httpd

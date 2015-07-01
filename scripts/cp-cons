@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# assumes we are in /opt/schoolserver/xsce-local
+
+ANSIBLE_DIR="/opt/schoolserver/xsce"
+
+cp -f root/opt/schoolserver/admin_console/js/admin_console.js /opt/schoolserver/admin_console/js
+cp -f root/opt/schoolserver/admin_console/index.html /opt/schoolserver/admin_console
+cp -f root/opt/schoolserver/xsce_cmdsrv/xsce-cmdsrv /opt/schoolserver/xsce_cmdsrv
+
+systemctl restart xsce-cmdsrv
