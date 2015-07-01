@@ -544,7 +544,6 @@ def cmd_handler(cmd_msg):
         "GET-KIWIX-CAT": get_kiwix_catalog,
         "GET-ZIM-STAT": get_zim_stat,
         "INST-ZIMS": install_zims,
-        "INST-RACHEL": install_rachel,
         "RESTART-KIWIX": restart_kiwix,
         "REBOOT": reboot_server,
         "POWEROFF": poweroff_server
@@ -1508,8 +1507,8 @@ def read_xsce_cmdsrv_conf_file():
     kiwix_catalog_file = conf['kiwix_catalog_file']
     zim_downloads_dir = conf['zim_downloads_dir']
     zim_download_prefix = conf['zim_download_prefix']
-    rachel_downloads_dir = conf['rachel_downloads_dir']
-    rachel_working_dir = conf['rachel_working_dir']
+    #rachel_downloads_dir = conf['rachel_downloads_dir']
+    #rachel_working_dir = conf['rachel_working_dir']
 
 # These two were taken from the OLPC idmgr application
 
